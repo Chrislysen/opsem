@@ -30,6 +30,18 @@ LoCoMo, Hit@1, honest leave-one-conversation-out cross-validation (e5-large-v2):
 - Honest boundary: on **LongMemEval-S** — a lexical regime where BM25
   saturates — the net fusion gain over BM25 is small and not significant.
 
+![Late vs early interaction across six encoders on LoCoMo](results/fig_interaction.png)
+
+*Holding the retrieval unit fixed at session and reusing identical cached turn
+vectors, switching the pooling operator from early (mean-pool) to late
+(max-sim) lifts dense Hit@1 above the BM25 reference at every encoder.*
+
+![Per-category LoCoMo Hit@1](results/fig_category.png)
+
+*A division of labor: dense late interaction wins on multi-hop and temporal
+questions, trails BM25 on adversarial ones, and fusion combines whichever
+signal a query needs.*
+
 Full paper: [`paper/paper.pdf`](paper/paper.pdf). arXiv: *link to be added.*
 
 ## Repository structure
