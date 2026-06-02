@@ -1,0 +1,38 @@
+{
+  "ts": "20260602T163441",
+  "n_queries": 200,
+  "encoder": "bge-base",
+  "ce_model": "ms-marco-MiniLM-L-6-v2",
+  "k_rerank": 10,
+  "stages_ms": {
+    "query_encode": {
+      "mean_ms": 3494.318167500078,
+      "median_ms": 2764.851300002192,
+      "p95_ms": 9784.55975499873
+    },
+    "bm25": {
+      "mean_ms": 26.724143999890657,
+      "median_ms": 7.6691499998560175,
+      "p95_ms": 118.03451500054493
+    },
+    "dense_maxsim": {
+      "mean_ms": 161.03224649999902,
+      "median_ms": 101.29525000047579,
+      "p95_ms": 461.5121899996663
+    },
+    "fusion": {
+      "mean_ms": 2.6150994997988164,
+      "median_ms": 0.2993500002048677,
+      "p95_ms": 9.677975001795838
+    },
+    "ce_rerank_top10": {
+      "mean_ms": 4122.074507500001,
+      "median_ms": 3212.6724000008835,
+      "p95_ms": 8958.799344999163
+    }
+  },
+  "retrieve_total_mean_ms": 3684.6896574997663,
+  "ce_rerank_vs_retrieve_x": 1.11870330764763,
+  "ranking_total_mean_ms": 190.3714899996885,
+  "ce_rerank_vs_ranking_x": 21.652793217654317
+}

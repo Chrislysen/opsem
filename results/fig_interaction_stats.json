@@ -1,0 +1,23 @@
+{
+  "source": "results\\tune13-interaction-20260601T170200\\tune13.json",
+  "late_minus_early_gap_pp": {
+    "gte-base": 13.498483316481291,
+    "bge-base": 16.07684529828109,
+    "mxbai-large": 17.290192113245705,
+    "e5-base-v2": 17.290192113245702,
+    "bge-large": 19.868554095045493,
+    "e5-large-v2": 23.710819009100103
+  },
+  "params_M": {
+    "gte-base": 109,
+    "bge-base": 109,
+    "mxbai-large": 335,
+    "e5-base-v2": 109,
+    "bge-large": 335,
+    "e5-large-v2": 335
+  },
+  "mean_gap_base_109M_pp": 15.621840242669359,
+  "mean_gap_large_335M_pp": 20.289855072463766,
+  "note": "Gap is large for all six encoders and larger on average for 335M than 109M encoders, but not monotone (mxbai-large 335M ties e5-base 109M). We avoid a gap-vs-own-score correlation as it would be near-circular.",
+  "n_encoders": 6
+}

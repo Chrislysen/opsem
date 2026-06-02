@@ -1,0 +1,109 @@
+\begin{thebibliography}{14}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Maharana et~al.(2024)Maharana, Lee, Tulyakov, Bansal, Barbieri, and
+  Fang]{locomo}
+Adyasha Maharana, Dong-Ho Lee, Sergey Tulyakov, Mohit Bansal, Francesco
+  Barbieri, and Yuwei Fang.
+\newblock Evaluating very long-term conversational memory of {LLM} agents.
+\newblock In \emph{Proceedings of the Annual Meeting of the Association for
+  Computational Linguistics (ACL)}, 2024.
+\newblock arXiv:2402.17753.
+
+\bibitem[Wu et~al.(2025)Wu, Wang, Yu, Zhang, Chang, and Yu]{longmemeval}
+Di~Wu, Hongwei Wang, Wenhao Yu, Yuwei Zhang, Kai-Wei Chang, and Dong Yu.
+\newblock {LongMemEval}: Benchmarking chat assistants on long-term interactive
+  memory.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2025.
+\newblock arXiv:2410.10813.
+
+\bibitem[Pan et~al.(2025)Pan, Wu, Jiang, Luo, Cheng, Li, Yang, Lin, Zhao, Qiu,
+  and Gao]{secom}
+Zhuoshi Pan, Qianhui Wu, Huiqiang Jiang, Xufang Luo, Hao Cheng, Dongsheng Li,
+  Yuqing Yang, Chin-Yew Lin, H.~Vicky Zhao, Lili Qiu, and Jianfeng Gao.
+\newblock {SeCom}: On memory construction and retrieval for personalized
+  conversational agents.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2025.
+\newblock arXiv:2502.05589.
+
+\bibitem[Packer et~al.(2023)Packer, Wooders, Lin, Fang, Patil, Stoica, and
+  Gonzalez]{memgpt}
+Charles Packer, Sarah Wooders, Kevin Lin, Vivian Fang, Shishir~G. Patil, Ion
+  Stoica, and Joseph~E. Gonzalez.
+\newblock {MemGPT}: Towards {LLMs} as operating systems, 2023.
+
+\bibitem[Rasmussen et~al.(2025)Rasmussen, Paliychuk, Beauvais, Ryan, and
+  Chalef]{zep}
+Preston Rasmussen, Pavlo Paliychuk, Travis Beauvais, Jack Ryan, and Daniel
+  Chalef.
+\newblock Zep: A temporal knowledge graph architecture for agent memory, 2025.
+
+\bibitem[Wu et~al.(2026)Wu, Chen, Huang, Chen, Liu, Wang, Zhou, and
+  Liang]{nanomemory}
+Yuqian Wu, Wei Chen, Zhengjun Huang, Junle Chen, Qingxiang Liu, Kai Wang,
+  Xiaofang Zhou, and Yuxuan Liang.
+\newblock Back to basics: Let conversational agents remember with just
+  retrieval and generation, 2026.
+\newblock Nano-Memory. \url{https://github.com/yuqian2003/Nano-Memory}.
+
+\bibitem[Khattab and Zaharia(2020)]{colbert}
+Omar Khattab and Matei Zaharia.
+\newblock {ColBERT}: Efficient and effective passage search via contextualized
+  late interaction over {BERT}.
+\newblock In \emph{Proceedings of the International ACM SIGIR Conference on
+  Research and Development in Information Retrieval (SIGIR)}, 2020.
+\newblock arXiv:2004.12832.
+
+\bibitem[Cormack et~al.(2009)Cormack, Clarke, and B{\"u}ttcher]{rrf}
+Gordon~V. Cormack, Charles L.~A. Clarke, and Stefan B{\"u}ttcher.
+\newblock Reciprocal rank fusion outperforms condorcet and individual rank
+  learning methods.
+\newblock In \emph{Proceedings of the International ACM SIGIR Conference on
+  Research and Development in Information Retrieval (SIGIR)}, 2009.
+
+\bibitem[Robertson and Zaragoza(2009)]{bm25}
+Stephen Robertson and Hugo Zaragoza.
+\newblock The probabilistic relevance framework: {BM25} and beyond.
+\newblock \emph{Foundations and Trends in Information Retrieval}, 3\penalty0
+  (4):\penalty0 333--389, 2009.
+
+\bibitem[Li et~al.(2023)Li, Zhang, Zhang, Long, Xie, and Zhang]{gte}
+Zehan Li, Xin Zhang, Yanzhao Zhang, Dingkun Long, Pengjun Xie, and Meishan
+  Zhang.
+\newblock Towards general text embeddings with multi-stage contrastive
+  learning, 2023.
+\newblock GTE.
+
+\bibitem[Xiao et~al.(2023)Xiao, Liu, Zhang, and Muennighoff]{bge}
+Shitao Xiao, Zheng Liu, Peitian Zhang, and Niklas Muennighoff.
+\newblock {C-Pack}: Packed resources for general chinese embeddings, 2023.
+\newblock BGE.
+
+\bibitem[Wang et~al.(2022)Wang, Yang, Huang, Jiao, Yang, Jiang, Majumder, and
+  Wei]{e5}
+Liang Wang, Nan Yang, Xiaolong Huang, Binxing Jiao, Linjun Yang, Daxin Jiang,
+  Rangan Majumder, and Furu Wei.
+\newblock Text embeddings by weakly-supervised contrastive pre-training, 2022.
+\newblock E5.
+
+\bibitem[Lee et~al.(2024)Lee, Shakir, Koenig, and Lipp]{mxbai}
+Sean Lee, Aamir Shakir, Darius Koenig, and Julius Lipp.
+\newblock Open source strikes bread --- new fluffy embeddings model
+  ({mxbai-embed-large-v1}).
+\newblock Mixedbread AI, 2024.
+\newblock Model card.
+
+\bibitem[Reimers and Gurevych(2019)]{sbert}
+Nils Reimers and Iryna Gurevych.
+\newblock {Sentence-BERT}: Sentence embeddings using siamese {BERT}-networks.
+\newblock In \emph{Proceedings of the Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, 2019.
+\newblock arXiv:1908.10084; all-MiniLM models.
+
+\end{thebibliography}

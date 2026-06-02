@@ -1,0 +1,69 @@
+{
+  "ts": "20260602T111150",
+  "n_eval": 1978,
+  "n_conversations": 10,
+  "n_boot": 4000,
+  "comparison": "fusion(max-sim) vs dense(max-sim) alone",
+  "rows": [
+    {
+      "encoder": "bge-base",
+      "dense_late_hit1": 0.5470171890798786,
+      "fusion_late_hit1": 0.698685540950455,
+      "loco_alpha_median": 0.6,
+      "delta_pp": 15.166835187057636,
+      "ci_lo_pp": 12.979908058409947,
+      "ci_hi_pp": 17.155207081341437,
+      "p_one_sided": 0.0
+    },
+    {
+      "encoder": "e5-base-v2",
+      "dense_late_hit1": 0.5803842264914054,
+      "fusion_late_hit1": 0.7017189079878665,
+      "loco_alpha_median": 0.55,
+      "delta_pp": 12.13346814964611,
+      "ci_lo_pp": 9.801773010371875,
+      "ci_hi_pp": 14.834217345991775,
+      "p_one_sided": 0.0
+    },
+    {
+      "encoder": "gte-base",
+      "dense_late_hit1": 0.5187057633973711,
+      "fusion_late_hit1": 0.6905965621840243,
+      "loco_alpha_median": 0.6,
+      "delta_pp": 17.189079878665325,
+      "ci_lo_pp": 13.648857321563476,
+      "ci_hi_pp": 20.628303943815528,
+      "p_one_sided": 0.0
+    },
+    {
+      "encoder": "bge-large",
+      "dense_late_hit1": 0.602123356926188,
+      "fusion_late_hit1": 0.7209302325581395,
+      "loco_alpha_median": 0.45,
+      "delta_pp": 11.880687563195147,
+      "ci_lo_pp": 9.514755759844135,
+      "ci_hi_pp": 14.400111190362377,
+      "p_one_sided": 0.0
+    },
+    {
+      "encoder": "mxbai-large",
+      "dense_late_hit1": 0.5778564206268959,
+      "fusion_late_hit1": 0.7128412537917088,
+      "loco_alpha_median": 0.5,
+      "delta_pp": 13.498483316481291,
+      "ci_lo_pp": 10.296197886458726,
+      "ci_hi_pp": 16.675136500564825,
+      "p_one_sided": 0.0
+    },
+    {
+      "encoder": "e5-large-v2",
+      "dense_late_hit1": 0.6638018200202225,
+      "fusion_late_hit1": 0.7517694641051568,
+      "loco_alpha_median": 0.4,
+      "delta_pp": 8.796764408493429,
+      "ci_lo_pp": 6.62054498988406,
+      "ci_hi_pp": 11.189825124698991,
+      "p_one_sided": 0.0
+    }
+  ]
+}

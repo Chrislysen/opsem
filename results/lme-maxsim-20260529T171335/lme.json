@@ -1,0 +1,35 @@
+{
+  "ts": "20260529T171335",
+  "n_eval": 200,
+  "challenge_only": true,
+  "n_boot": 4000,
+  "hit1": {
+    "BM25": 0.87,
+    "Dense-sessionmean": 0.86,
+    "Dense-maxsim": 0.935,
+    "RRF(BM25,maxsim)": 0.905,
+    "Fusion-maxsim(CV)": 0.935
+  },
+  "fusion_ceiling_alpha": 0.0,
+  "fusion_ceiling_h1": 0.935,
+  "comparisons": {
+    "Fusion vs BM25": {
+      "diff": 0.06500000000000006,
+      "lo": 0.02499999999999991,
+      "hi": 0.10999999999999999,
+      "p_one_sided": 0.001
+    },
+    "Fusion vs Dense-maxsim": {
+      "diff": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_one_sided": 1.0
+    },
+    "Fusion vs RRF(BM25,maxsim)": {
+      "diff": 0.030000000000000027,
+      "lo": 0.0050000000000000044,
+      "hi": 0.05999999999999994,
+      "p_one_sided": 0.0195
+    }
+  }
+}

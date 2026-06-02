@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Large regenerable embedding caches (rebuilt by embed_*.py / the tune scripts).
+# Result receipts (results/*/*.json, *.md) and figures ARE tracked.
+results/*.npz
+results/*.npy
+
+# Datasets are not redistributed (see data/locomo/README.md)
+data/locomo/locomo10.json
+
+# LaTeX build intermediates
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.blg
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+paper/arxiv_submission.zip
+
+# OS
+.DS_Store

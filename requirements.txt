@@ -1,0 +1,9 @@
+# Core (CPU is sufficient; no training required)
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+sentence-transformers>=2.7   # pulls in torch + transformers (CPU build is fine)
+datasets>=2.18               # for loading LongMemEval-S from the HF Hub
+
+# Optional: only needed for the end-to-end QA harness (e2e_qa.py)
+anthropic>=0.40
